@@ -1,4 +1,8 @@
 utility/Car.java
  utility.Car
+utility/CarIsAlreadyParkedException.java
+ utility.CarIsAlreadyParkedException
 utility/ParkingLot.java
  utility.ParkingLot
+utility/CarIsNotAvailableException.java
+ utility.CarIsNotAvailableException
