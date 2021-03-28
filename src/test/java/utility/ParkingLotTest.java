@@ -1,4 +1,5 @@
 package utility;
+
 import org.junit.jupiter.api.Test;
 
 import javax.naming.LimitExceededException;
@@ -59,5 +60,17 @@ public class ParkingLotTest {
         Car car=new Car();
 
         assertThrows(CarIsNotAvailableException.class,() -> parkingLot.unPark(car));
+    }
+
+    @Test
+    public void testTrueIfTheOwnerIsNotifiedWhenParkingLotIsFull()
+            throws CarIsAlreadyParkedException, LimitExceededException {
+        ParkingLotOwner parkingLotOwner=new ParkingLotOwner();
+        ParkingLot parkingLot=new ParkingLot(1,parkingLotOwner);
+        Car car=new Car();
+
+        parkingLot.park(car);
+
+        assertTrue(parkingLotOwner.parkingLotIsFull);
     }
 }

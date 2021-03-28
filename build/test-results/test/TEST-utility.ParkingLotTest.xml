@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="utility.ParkingLotTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-25T14:49:15" hostname="LAPTOP-GFK8P9AB" time="0.213">
+<testsuite name="utility.ParkingLotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-28T15:41:23" hostname="LAPTOP-GFK8P9AB" time="0.094">
   <properties/>
-  <testcase name="testIfCarIsParked()" classname="utility.ParkingLotTest" time="0.11"/>
-  <testcase name="testThrowsExceptionIfParkingSlotIsNotAvailable()" classname="utility.ParkingLotTest" time="0.058"/>
-  <testcase name="testThrowsExceptionIfTheCarToBeUnParkedIsNotAvailable()" classname="utility.ParkingLotTest" time="0.015"/>
-  <testcase name="testThrowsExceptionIfCarIsAlreadyParked()" classname="utility.ParkingLotTest" time="0.002"/>
-  <testcase name="testIfCarIsUnParked()" classname="utility.ParkingLotTest" time="0.004"/>
+  <testcase name="testTrueIfTheOwnerIsNotifiedWhenParkingLotIsFull()" classname="utility.ParkingLotTest" time="0.094"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
